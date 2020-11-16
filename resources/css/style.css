@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    padding-top: 40px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.col-sm-2 {
+    padding: 0;
+}
+
+.bg-dark {
+    background-color: #232527!important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand.dropdown-toggle::after {
+    content: none;
+}
+
+.dropdown-menu {
+    padding: 0;
+    background: #232527;
+}
+
+.dropdown-menu a {
+    color: #fff!important;
+}
+
+.dropdown-menu a:hover {
+    background-color: #000!important;
+}
+
+.drop-down-brand {
+    left: 235px;
+}
+
+.sidebar {
+    padding: 10px;
+    background-color: #232527!important;
+    position: fixed;
+    height: 100%;
+    width: 190px;
+    max-width: 190px;
+}
+
+.sidebar ul {
+    margin-top: 30px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: block;
+    border-radius: 3px;
+    border: 1px solid #383838;
+    transition: .3s ease-in-out;
+}
+
+.sidebar ul li i {
+    font-size: 15px;
+}
+
+.sidebar ul li a:hover {
+    color: #fff;
+    background: #484848;
+}
+
+.error {
+    color: red;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    display: none;
+}
+
+.mybtn {
+    float: right;
+}
